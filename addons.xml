@@ -46,4 +46,54 @@
     <platform>all</platform>
   </extension>
 </addon>
+<addon id="plugin.video.realmadridreplays"
+       name="Real Madrid Replays"
+       version="1.0"
+       provider-name="stream_town">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Real Madrid Replays</summary>
+    <description lang="en">Real Madrid Replays</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.pstine.tutorials"
+	name="P-stine Tutorials"
+	version="1.0"
+	provider-name="Stream Town">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Streaming Done Right</summary>
+    <description lang="en">This Add-on will provide you information and video tutorials on how to use the P-stine build/Wizard. for more information contact us at: 505 910-9287 or email us at: streamtownofficial@gmail.com</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>http://youtube.com</website>
+  </extension>
+</addon>
 </addons>
